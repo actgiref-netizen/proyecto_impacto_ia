@@ -218,7 +218,7 @@ Se concluyen los siguientes puntos estratégicos:
 
 1. **Sectores de Alerta Máxima (Volumen de Riesgo):** El sector de la **Salud (Healthcare)** encabeza las proyecciones con un desplazamiento acumulado estimado de **846,675 puestos**, seguido de cerca por el sector de **Tecnologías de la Información (IT)** con **824,400 despidos simulados**. Esto demuestra que las industrias de alta densidad profesional son las más vulnerables ante implementaciones a escala de IA.
 2. **El Escudo Creativo Humano:** El análisis de dispersión denota que los puestos que exhiben una baja probabilidad de automatización se encuentran protegidos por un índice elevado de requerimiento creativo humano, validando la hipótesis de que las habilidades blandas actúan como factor de mitigación frente al desplazamiento tecnológico.
-3. **Eficiencia de la Capa Híbrida:** La arquitectura basada en `JSONB` mitigó en un 100% la necesidad de alterar tablas relacionales tradicionales para tareas de auditoría operativa, consolidando los logs de control con una latencia de respuesta en el clúster inferior a los milisegundos.
+
 
 ```
 
