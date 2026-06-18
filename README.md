@@ -188,6 +188,28 @@ FROM public.log_auditoria_ia
 ORDER BY fecha_registro DESC;
 
 ```
+---
+
+## 📊 Visualizaciones del Dashboard
+
+Los siguientes componentes gráficos se actualizan de forma automatizada mediante el pipeline analítico implementado en Python, extrayendo las métricas en tiempo real desde el motor cloud en Amazon Aurora para transformarlas en activos de Business Intelligence:
+
+### 1. Volumen Acumulado de Despidos Proyectados por Sector Industrial
+Esta visualización tiene como objetivo aislar de manera cuantitativa el impacto absoluto de la Inteligencia Artificial en el mercado laboral hacia el año 2030. Al consolidar el volumen total de despidos simulados, permitimos a los tomadores de decisiones identificar instantáneamente cuáles son las industrias críticas (como la salud y la tecnología) que requerirán de manera urgente políticas públicas de reconversión de habilidades (*reskilling*) debido al alto desplazamiento de puestos tradicionales.
+
+![Top Despidos por Industria](dashboard/img/01_top_despidos_industria.png)
+
+### 2. Análisis de Correlación: Habilidades vs. Automatización
+Este gráfico de dispersión analiza la interacción y fricción operativa entre dos variables clave: el índice de exposición tecnológica de un puesto frente a su requerimiento de habilidades analíticas y creativas humanas. El objetivo es identificar si las capacidades intrínsecamente humanas actúan como un mecanismo de defensa o escudo laboral; los puntos distribuidos nos permiten mapear los roles que se encuentran en zonas de riesgo inminente (alta exposición, baja creatividad) frente a los que lograrán una adopción híbrida exitosa.
+
+![Dispersión de Riesgo y Habilidades](dashboard/img/02_dispersion_exposicion.png)
+
+---
+
+## 🔍 Hallazgos principales e Insights de Negocio
+
+* **Vulnerabilidad Sectorial Extrema:** De acuerdo con las consultas multidimensionales ejecutadas en Aurora, el sector de la **Salud (Healthcare)** lidera el riesgo con un volumen de **846,675 despidos proyectados**, seguido inmediatamente por el sector de **Tecnologías de la Información (IT)** con **824,400 despidos simulados**.
+* **Ventajas del Almacenamiento Híbrido:** La implementación de logs basados en `JSONB` simplificó las tareas de mantenimiento de bases de datos al no requerir reestructuraciones DDL complejas para registrar metadatos de auditoría cambiantes entre entornos.
 
 ---
 
