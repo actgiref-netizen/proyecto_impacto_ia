@@ -204,12 +204,11 @@ Este gráfico de dispersión analiza la interacción y fricción operativa entre
 
 ![Dispersión de Riesgo y Habilidades](dashboard/img/02_dispersion_exposicion.png)
 
+### 3. Proyección Avanzada del Impacto Sectorial y Automatización de Tareas (Pregunta Inicial)
+Este gráfico ejecutivo de doble eje Y es la pieza central que responde directamente a nuestra pregunta analítica de negocio. Su objetivo es cruzar dos dimensiones críticas: en el eje principal (barras) se expone el volumen absoluto de despidos proyectados, mientras que en el eje secundario (línea) se traza el promedio porcentual de tareas que serán completamente automatizadas dentro de cada sector. Esta combinación permite descubrir paradojas clave, como industrias que tal vez no tengan la mayor cantidad de despidos en números absolutos, pero cuyas tareas operativas internas sufrirán una transformación y automatización casi total, redefiniendo por completo la naturaleza de sus puestos de trabajo.
+
+![Proyección de Pregunta Inicial](dashboard/img/03_proyeccion_pregunta_inicial.png)
 ---
-
-## 🔍 Hallazgos principales e Insights de Negocio
-
-* **Vulnerabilidad Sectorial Extrema:** De acuerdo con las consultas multidimensionales ejecutadas en Aurora, el sector de la **Salud (Healthcare)** lidera el riesgo con un volumen de **846,675 despidos proyectados**, seguido inmediatamente por el sector de **Tecnologías de la Información (IT)** con **824,400 despidos simulados**.
-* **Ventajas del Almacenamiento Híbrido:** La implementación de logs basados en `JSONB` simplificó las tareas de mantenimiento de bases de datos al no requerir reestructuraciones DDL complejas para registrar metadatos de auditoría cambiantes entre entornos.
 
 ---
 
