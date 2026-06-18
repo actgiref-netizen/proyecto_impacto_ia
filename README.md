@@ -1,4 +1,3 @@
-```markdown
 # Proyecto Final — Impacto de la Inteligencia Artificial en el Desplazamiento Laboral (Proyección 2030)
 
 > ℹ️ Este es el repositorio oficial del proyecto final del módulo. Implementa una solución integral de ingeniería de datos y analítica predictiva en la nube, estructurada bajo metodologías empresariales de Business Intelligence.
@@ -203,6 +202,3 @@ Se concluyen los siguientes puntos estratégicos:
 ```
 
 ---
-
-
-```
